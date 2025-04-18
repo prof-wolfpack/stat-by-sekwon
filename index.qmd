@@ -1,0 +1,19 @@
+---
+title: "통계 강의노트"
+format: html
+---
+
+# 기대값과 분산
+
+$E(X) = \mu$
+
+$$
+\mathrm{Var}(X) = E[(X - \mu)^2]
+$$
+
+## 예제 코드 (Python)
+
+```{python}
+import numpy as np
+data = [1, 2, 3, 4, 5]
+np.mean(data), np.var(data)
